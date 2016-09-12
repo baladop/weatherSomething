@@ -15,6 +15,7 @@
 		B24F37DB1D8746A30009C7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24F37DA1D8746A30009C7E3 /* Assets.xcassets */; };
 		B24F37DE1D8746A30009C7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24F37DC1D8746A30009C7E3 /* LaunchScreen.storyboard */; };
 		B24F37E91D8746A30009C7E3 /* weatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B24F37E81D8746A30009C7E3 /* weatherAppTests.m */; };
+		B24F37F51D8747CF0009C7E3 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24F37F41D8747CF0009C7E3 /* CityTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B24F37E41D8746A30009C7E3 /* weatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24F37E81D8746A30009C7E3 /* weatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherAppTests.m; sourceTree = "<group>"; };
 		B24F37EA1D8746A30009C7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24F37F31D8747CF0009C7E3 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		B24F37F41D8747CF0009C7E3 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				B24F37DF1D8746A30009C7E3 /* Info.plist */,
 				B24F37D71D8746A30009C7E3 /* weatherApp.xcdatamodeld */,
 				B24F37CB1D8746A30009C7E3 /* Supporting Files */,
+				B24F37F31D8747CF0009C7E3 /* CityTableViewController.h */,
+				B24F37F41D8747CF0009C7E3 /* CityTableViewController.m */,
 			);
 			path = weatherApp;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24F37D91D8746A30009C7E3 /* weatherApp.xcdatamodeld in Sources */,
+				B24F37F51D8747CF0009C7E3 /* CityTableViewController.m in Sources */,
 				B24F37D31D8746A30009C7E3 /* ViewController.m in Sources */,
 				B24F37D01D8746A30009C7E3 /* AppDelegate.m in Sources */,
 				B24F37CD1D8746A30009C7E3 /* main.m in Sources */,
